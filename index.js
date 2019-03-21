@@ -87,6 +87,7 @@ const nextPage = function($) {
     exportResults(parsedResults);
     return false;
   }
+  console.log(chalk.black.bgBlue(`\n  Going to next page \n`));
   // 🏁 Go back to the start until it's finished
   getArchiveContent();
 };
